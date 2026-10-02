@@ -1,0 +1,29 @@
+English Quest Kids — PWA Mobile
+
+สำคัญ:
+ไฟล์ PWA ต้องนำขึ้นเว็บไซต์แบบ HTTPS ก่อน จึงจะติดตั้งและใช้ Service Worker/Offline ได้เต็มรูปแบบ
+การดับเบิลคลิก index.html ใช้ดูหน้าตาได้ แต่ยังไม่ใช่การติดตั้ง PWA จริง
+
+iPhone / iPad:
+1. เปิด URL ของแอปด้วย Safari
+2. แตะ Share (สี่เหลี่ยมมีลูกศรขึ้น)
+3. เลือก Add to Home Screen / เพิ่มไปยังหน้าจอโฮม
+4. แตะ Add
+5. จะได้ไอคอน English Quest บนหน้าจอ
+
+Android:
+1. เปิด URL ด้วย Chrome
+2. แตะเมนู ⋮
+3. เลือก Add to Home screen / Install app
+4. ยืนยันติดตั้ง
+
+ในชุดนี้มี:
+- index.html
+- manifest.webmanifest
+- sw.js สำหรับ Offline cache
+- icon-192.png / icon-512.png
+- UI รองรับหน้าจอมือถือและ safe area
+- ระบบดาว/Progress เก็บในเครื่องด้วย localStorage
+
+หมายเหตุ:
+Speech Recognition บนเว็บขึ้นกับระบบ/เบราว์เซอร์ การทำเป็นแอป Flutter ภายหลังจะควบคุมโหมดไมค์ได้ดีกว่า
